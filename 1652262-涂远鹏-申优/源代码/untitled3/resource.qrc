@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/1.ico</file>
+        <file>Resource/1.PNG</file>
+        <file>Resource/2.ico</file>
+        <file>Resource/2.PNG</file>
+        <file>Resource/3.ico</file>
+        <file>Resource/3.PNG</file>
+        <file>Resource/4.ico</file>
+        <file>Resource/4.PNG</file>
+        <file>Resource/5.ico</file>
+        <file>Resource/5.PNG</file>
+        <file>Resource/6.PNG</file>
+        <file>Resource/back.PNG</file>
+        <file>Resource/Error.ico</file>
+        <file>Resource/grammar-en.ico</file>
+        <file>Resource/Open.ico</file>
+        <file>Resource/save.ico</file>
+        <file>Resource/splash.PNG</file>
+        <file>Resource/start.PNG</file>
+        <file>Resource/tongji.ico</file>
+        <file>Resource/tongji1.PNG</file>
+    </qresource>
+</RCC>

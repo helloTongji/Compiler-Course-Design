@@ -1,0 +1,21 @@
+基本功能+实现了数组数据类型+过程调用实现+优化
+优化：引用计数优化（去除无用变量）cntopt（）函数
+*      =   , 2 ,   , temp  ==> temp = 2;
+*       []= , a , i , t       ==> a[i] = t;
+*      int ,   ,   , a     ==> int  a;
+*      const,int,5 , a     ==> const int a = 5;
+*      char,   , 30, a     ==> char a[30];
+*      fupa,   ,   , a     ==> a is a function parameter
+*      call, f ,   , a     ==> a = f()
+*      call, f ,   ,       ==> f()
+*      <=.., a , b ,       ==> a <= b
+*      jne ,   ,   , lable ==> if not satisfy(==false) then jump
+*      jmp ,   ,   , label ==> jump to label
+*      lab:,   ,   , labx  ==> set label
+*      geta, a , n , b     ==> b = a[n]
+*      ret ,   ,   , (a)   ==> return a / return
+*      prt , a , b , symb  ==> print("a", b)
+*      scf ,   ,   , a     ==> scanf(a)
+*      func,int,   , f     ==> start of function int f()
+*      para,int,   , a     ==> f(int a, ...)
+*      end ,   ,   , f     ==> end of function f

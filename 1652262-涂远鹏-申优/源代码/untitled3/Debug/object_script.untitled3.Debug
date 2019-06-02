@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\err1.o
+./debug\glob1.o
+./debug\glob2.o
+./debug\midcode.o
+./debug\syn.o
+./debug\lexical.o
+./debug\semantic.o
+./debug\STree.o
+./debug\syntax.o
+./debug\globwidget.o
+./debug\qrc_resource.o
+./debug\moc_mainwindow.o
+);

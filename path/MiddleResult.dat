@@ -1,0 +1,61 @@
+-1    counter_j    42
+0    program               
+1    =     0          T1
+2    =     T1          i
+3    =     a          T2
+4    =     b          T3
+5    =     c          T4
+6    +     T3     T4     T3
+7    counter_j>     T2     T3     9
+8    counter_j     18          
+9    =     a          T5
+10    =     b          T6
+11    =     c          T7
+12    *     T6     T7     T6
+13    =     1          T8
+14    +     T6     T8     T6
+15    +     T5     T6     T5
+16    =     T5          j
+17    counter_j     20          
+18    =     a          T9
+19    =     T9          j
+20    =     i          T10
+21    =     100          T11
+22    counter_j<=     T10     T11     24
+23    counter_j     29          
+24    =     j          T12
+25    =     2          T13
+26    *     T12     T13     T12
+27    =     T12          i
+28    counter_j     20          
+29    =     i          T14
+30    =     T14          EAX
+31    END               
+32    demo               
+33    =     f          T15
+34    =     2          T16
+35    +     T15     T16     T15
+36    =     T15          f
+37    =     f          T17
+38    =     2          T18
+39    *     T17     T18     T17
+40    =     T17          EAX
+41    END               
+42    main               
+43    =     3          T19
+44    =     T19          a
+45    =     4          T20
+46    =     T20          b
+47    =     2          T21
+48    =     T21          c
+49    =     a          T22
+50    =     b          T23
+51    =     c          T24
+52    param     T24          
+53    call     demo          
+54    param     T22          
+55    param     T23          
+56    param     EAX          
+57    call     program          
+58    =     EAX          a
+59    END               

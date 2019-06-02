@@ -1,0 +1,65 @@
+		int	,  	,  	,a
+		int	,  	,  	,b
+		inta	,0	,5	,e
+		char	,  	,  	,hj
+
+
+		func	,int	,  	,program
+		para	,int	,  	,a
+		para	,int	,  	,b
+		para	,int	,  	,c
+		int	,  	,  	,i
+		int	,  	,  	,j
+		int	,  	,  	,m
+		=	,0	,  	,i
+		+	,b	,c	,$_0
+		>	,a	,$_0	,  
+		jne	,  	,  	,_LABEL_0
+		*	,b	,c	,$_1
+		+	,$_1	,1	,$_2
+		+	,a	,$_2	,$_3
+		=	,$_3	,  	,j
+		jmp	,  	,  	,_LABEL_1
+		lab:	,  	,  	,_LABEL_0
+		=	,a	,  	,j
+		lab:	,  	,  	,_LABEL_1
+		lab:	,  	,  	,_LABEL_2
+		<=	,i	,100	,  
+		jne	,  	,  	,_LABEL_3
+		*	,j	,2	,$_4
+		=	,$_4	,  	,i
+		=	,i	,  	,j
+		jmp	,  	,  	,_LABEL_2
+		lab:	,  	,  	,_LABEL_3
+		ret	,  	,  	,i
+		end	,  	,  	,program
+
+
+		func	,int	,  	,demo
+		para	,int	,  	,a
+		int	,  	,  	,i
+		+	,a	,2	,$_0
+		=	,$_0	,  	,a
+		*	,a	,2	,$_1
+		=	,$_1	,  	,a
+		=	,0	,  	,i
+		ret	,  	,  	,a
+		end	,  	,  	,demo
+
+
+		func	,  	,  	,main
+		int	,  	,  	,a
+		int	,  	,  	,b
+		int	,  	,  	,c
+		=	,3	,  	,a
+		=	,4	,  	,b
+		=	,2	,  	,c
+		fupa	,  	,  	,c
+		call	,demo	,  	,$_0
+		fupa	,  	,  	,a
+		fupa	,  	,  	,b
+		fupa	,  	,  	,$_0
+		call	,program	,  	,$_1
+		=	,$_1	,  	,a
+		ret	,  	,  	,  
+		end	,  	,  	,main

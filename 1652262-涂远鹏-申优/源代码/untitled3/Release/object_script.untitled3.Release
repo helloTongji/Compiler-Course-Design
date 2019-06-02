@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\err1.o
+./release\glob1.o
+./release\glob2.o
+./release\midcode.o
+./release\syn.o
+./release\lexical.o
+./release\semantic.o
+./release\STree.o
+./release\syntax.o
+./release\globwidget.o
+./release\qrc_resource.o
+./release\moc_mainwindow.o
+);
